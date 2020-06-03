@@ -3,7 +3,7 @@
   public typealias Image = UIImage
 #elseif os(watchOS)
   import SwiftUI
-  public weak typealias Image = Image
+  public typealias Image = UIImage
 #elseif os(OSX)
   import AppKit
   public typealias Image = NSImage
