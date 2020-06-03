@@ -2,7 +2,8 @@
   import UIKit
   public typealias Image = UIImage
 #elseif os(watchOS)
-
+  import SwiftUI
+  public typealias Image = Image
 #elseif os(OSX)
   import AppKit
   public typealias Image = NSImage
